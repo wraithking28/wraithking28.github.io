@@ -3,40 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Hub</title>
+    <title>Computer World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Computer Hub</h1>
+        <h1>Welcome to Computer World</h1>
+        <p>Explore the latest in computer technology</p>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#hardware">Hardware</a></li>
-            <li><a href="#software">Software</a></li>
-            <li><a href="#news">Tech News</a></li>
-        </ul>
+        <a href="#hardware">Hardware</a>
+        <a href="#software">Software</a>
+        <a href="#news">Tech News</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <main>
-        <section id="hardware">
-            <h2>Computer Hardware</h2>
-            <p>Discover the latest innovations in processors, memory, and graphics cards.</p>
-        </section>
+    <section id="hardware">
+        <h2>Computer Hardware</h2>
+        <p>Discover the latest advancements in processors, graphics cards, and storage devices.</p>
+    </section>
 
-        <section id="software">
-            <h2>Computer Software</h2>
-            <p>Explore operating systems, applications, and programming languages.</p>
-        </section>
+    <section id="software">
+        <h2>Computer Software</h2>
+        <p>Learn about operating systems, applications, and coding languages.</p>
+    </section>
 
-        <section id="news">
-            <h2>Tech News</h2>
-            <p>Stay updated with the latest trends in computing and technology.</p>
-        </section>
-    </main>
+    <section id="news">
+        <h2>Tech News</h2>
+        <p>Stay updated with the latest trends and innovations in computing.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at: contact@computerworld.com</p>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Computer Hub. All rights reserved.</p>
+        <p>&copy; 2025 Computer World. All rights reserved.</p>
     </footer>
 </body>
 </html>
