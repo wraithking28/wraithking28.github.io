@@ -1,47 +1,42 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Computer Hub</h1>
+    </header>
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
+    <nav>
+        <ul>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#news">Tech News</a></li>
+        </ul>
+    </nav>
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <main>
+        <section id="hardware">
+            <h2>Computer Hardware</h2>
+            <p>Discover the latest innovations in processors, memory, and graphics cards.</p>
+        </section>
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
+        <section id="software">
+            <h2>Computer Software</h2>
+            <p>Explore operating systems, applications, and programming languages.</p>
+        </section>
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+        <section id="news">
+            <h2>Tech News</h2>
+            <p>Stay updated with the latest trends in computing and technology.</p>
+        </section>
+    </main>
 
-main {
-    padding: 20px;
-}
-
-section {
-    background-color: white;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-}
+    <footer>
+        <p>&copy; 2025 Computer Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
