@@ -1,83 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer World</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-        }
-        nav {
-            background-color: #444;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 5px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weeds Information Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #4CAF50;
+    }
+
+    .weed-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .weed-card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+    }
+
+    .weed-card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      .weed-gallery {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Computer World</h1>
-        <p>Explore the latest in computer technology</p>
-    </header>
 
-    <nav>
-        <a href="#hardware">Hardware</a>
-        <a href="#software">Software</a>
-        <a href="#news">Tech News</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <header>
+    <h1>Weeds Information Hub</h1>
+    <p>Your guide to understanding and managing weeds</p>
+  </header>
 
-    <section id="hardware">
-        <h2>Computer Hardware</h2>
-        <p>Discover the latest advancements in processors, graphics cards, and storage devices.</p>
-    </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#types">Types of Weeds</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section id="software">
-        <h2>Computer Software</h2>
-        <p>Learn about operating systems, applications, and coding languages.</p>
-    </section>
+  <section id="about">
+    <h2>About Weeds</h2>
+    <p>Weeds are unwanted plants that grow in gardens, lawns, or agricultural areas. While often seen as a nuisance, they can also play important ecological roles. Learning to identify and manage weeds is key for maintaining healthy ecosystems and productive farms.</p>
+  </section>
 
-    <section id="news">
-        <h2>Tech News</h2>
-        <p>Stay updated with the latest trends and innovations in computing.</p>
-    </section>
+  <section id="types">
+    <h2>Common Types of Weeds</h2>
+    <div class="weed-gallery">
+      <div class="weed-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dandelion_lg.jpg/320px-Dandelion_lg.jpg" alt="Dandelion" />
+        <h3>Dandelion</h3>
+        <p>A common weed with bright yellow flowers and fluffy seed heads. Dandelions are edible and have medicinal uses.</p>
+      </div>
+      <div class="weed-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Crabgrass.jpg/320px-Crabgrass.jpg" alt="Crabgrass" />
+        <h3>Crabgrass</h3>
+        <p>This fast-spreading weed invades lawns and gardens, competing with grass for sunlight and nutrients.</p>
+      </div>
+      <div class="weed-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Broadleaf_Plantain_Plantago_major.jpg/320px-Broadleaf_Plantain_Plantago_major.jpg" alt="Plantain Weed" />
+        <h3>Plantain</h3>
+        <p>Broadleaf plantain is a hardy weed found in compacted soil. Its leaves are sometimes used for herbal remedies.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email us at: contact@computerworld.com</p>
-    </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have questions or would like to contribute information or images about weeds, please email us at:</p>
+    <p><strong>weedsinfo@example.com</strong></p>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Computer World. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Weeds Information Hub. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
