@@ -1,42 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer World</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to Computer World</h1>
-        <nav>
-            <ul>
-                <li><a href="#hardware">Hardware</a></li>
-                <li><a href="#software">Software</a></li>
-                <li><a href="#news">Tech News</a></li>
-            </ul>
-        </nav>
-    </header>
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-    <main>
-        <section id="hardware">
-            <h2>Computer Hardware</h2>
-            <p>Explore the latest in computer processors, graphics cards, and storage devices.</p>
-        </section>
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
-        <section id="software">
-            <h2>Computer Software</h2>
-            <p>Learn about operating systems, applications, and programming languages.</p>
-        </section>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-        <section id="news">
-            <h2>Tech News</h2>
-            <p>Stay updated with the latest trends and innovations in the tech world.</p>
-        </section>
-    </main>
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
 
-    <footer>
-        <p>&copy; 2025 Computer World. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
