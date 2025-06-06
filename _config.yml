@@ -1,53 +1,89 @@
-# DFEStore.com Clone - Todo List
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Computer World</h1>
+        <nav>
+            <ul>
+                <li><a href="#hardware">Hardware</a></li>
+                <li><a href="#software">Software</a></li>
+                <li><a href="#news">Tech News</a></li>
+            </ul>
+        </nav>
+    </header>
 
-## Setup and Configuration
-- [x] Create Next.js project with shadcn/ui
-- [ ] Install dependencies and start dev server
-- [ ] Configure fonts (Montserrat, Open Sans)
-- [ ] Set up color scheme (#c62829 red, grays, blues)
+    <main>
+        <section id="hardware">
+            <h2>Computer Hardware</h2>
+            <p>Explore the latest in computer processors, graphics cards, and storage devices.</p>
+        </section>
 
-## Header Section
-- [ ] Create top navigation bar with phone number and login
-- [ ] Build main navigation with logo and menu items
-- [ ] Implement dropdown menus for BRANDS and CATEGORIES
-- [ ] Add shopping cart icon with badge
-- [ ] Make header responsive
+        <section id="software">
+            <h2>Computer Software</h2>
+            <p>Learn about operating systems, applications, and programming languages.</p>
+        </section>
 
-## Hero Section  
-- [ ] Create carousel/slider component
-- [ ] Add ASUS NUC featured product section with blue gradient
-- [ ] Implement promotional banners
-- [ ] Add navigation arrows and dots
+        <section id="news">
+            <h2>Tech News</h2>
+            <p>Stay updated with the latest trends and innovations in the tech world.</p>
+        </section>
+    </main>
 
-## Partner Brands Section
-- [ ] Build horizontal scrolling brand logos carousel
-- [ ] Add brand logos (darkFlash, Team Group, Seasonic, Logitech, etc.)
-- [ ] Implement smooth scrolling animation
+    <footer>
+        <p>&copy; 2025 Computer World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-## Browse Categories Section
-- [ ] Create product category grid layout
-- [ ] Add category cards (Laptops, SSDs, Monitors, Video Cards, Motherboards)
-- [ ] Implement hover effects and overlay text
-- [ ] Add "SEE THE FULL CATEGORY" button
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
-## Customer Reviews Section
-- [ ] Build Facebook reviews component
-- [ ] Add customer testimonials with photos
-- [ ] Implement star ratings display
-- [ ] Style review cards
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-## Footer Section
-- [ ] Create three-column footer layout
-- [ ] Add store locations and contact information
-- [ ] Include Google Maps links
-- [ ] Add social media links
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
 
-## Final Polish
-- [ ] Ensure responsive design across all devices
-- [ ] Add smooth animations and transitions
-- [ ] Test all interactive elements
-- [ ] Optimize images and performance
-- [ ] Create version and deploy
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
-## Current Status
-- Project created, ready to start development
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
