@@ -1,5 +1,53 @@
-title: Ogie
-#logo
-description: Technician 
-#show_downloads: true
-theme: jekyll-theme-minimal
+# DFEStore.com Clone - Todo List
+
+## Setup and Configuration
+- [x] Create Next.js project with shadcn/ui
+- [ ] Install dependencies and start dev server
+- [ ] Configure fonts (Montserrat, Open Sans)
+- [ ] Set up color scheme (#c62829 red, grays, blues)
+
+## Header Section
+- [ ] Create top navigation bar with phone number and login
+- [ ] Build main navigation with logo and menu items
+- [ ] Implement dropdown menus for BRANDS and CATEGORIES
+- [ ] Add shopping cart icon with badge
+- [ ] Make header responsive
+
+## Hero Section  
+- [ ] Create carousel/slider component
+- [ ] Add ASUS NUC featured product section with blue gradient
+- [ ] Implement promotional banners
+- [ ] Add navigation arrows and dots
+
+## Partner Brands Section
+- [ ] Build horizontal scrolling brand logos carousel
+- [ ] Add brand logos (darkFlash, Team Group, Seasonic, Logitech, etc.)
+- [ ] Implement smooth scrolling animation
+
+## Browse Categories Section
+- [ ] Create product category grid layout
+- [ ] Add category cards (Laptops, SSDs, Monitors, Video Cards, Motherboards)
+- [ ] Implement hover effects and overlay text
+- [ ] Add "SEE THE FULL CATEGORY" button
+
+## Customer Reviews Section
+- [ ] Build Facebook reviews component
+- [ ] Add customer testimonials with photos
+- [ ] Implement star ratings display
+- [ ] Style review cards
+
+## Footer Section
+- [ ] Create three-column footer layout
+- [ ] Add store locations and contact information
+- [ ] Include Google Maps links
+- [ ] Add social media links
+
+## Final Polish
+- [ ] Ensure responsive design across all devices
+- [ ] Add smooth animations and transitions
+- [ ] Test all interactive elements
+- [ ] Optimize images and performance
+- [ ] Create version and deploy
+
+## Current Status
+- Project created, ready to start development
