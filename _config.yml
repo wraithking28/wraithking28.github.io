@@ -3,81 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dota 2 Universe</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #1a1a1a;
-            color: white;
-            text-align: center;
-        }
-        header {
-            background-color: #c1272d;
-            padding: 20px;
-            font-size: 24px;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #262626;
-            border-radius: 5px;
-        }
-        footer {
-            background-color: #c1272d;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>My First Website</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Dota 2 Universe</h1>
-        <p>Your ultimate source for heroes, esports, and updates</p>
-    </header>
-
-    <nav>
-        <a href="#heroes">Heroes</a>
-        <a href="#news">Game Updates</a>
-        <a href="#tournaments">Tournaments</a>
-        <a href="#community">Community</a>
-    </nav>
-
-    <section id="heroes">
-        <h2>Featured Heroes</h2>
-        <p>Discover the abilities and lore of Dota 2's powerful heroes.</p>
-    </section>
-
-    <section id="news">
-        <h2>Latest Updates</h2>
-        <p>Stay up-to-date with game patches, new skins, and meta shifts.</p>
-    </section>
-
-    <section id="tournaments">
-        <h2>Esports & Events</h2>
-        <p>Follow international tournaments and competitive scene highlights.</p>
-    </section>
-
-    <section id="community">
-        <h2>Join the Community</h2>
-        <p>Share strategies, watch streams, and connect with other players.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Dota 2 Universe. All rights reserved.</p>
-    </footer>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple web page.</p>
 </body>
 </html>
+
