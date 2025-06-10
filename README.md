@@ -1,1 +1,41 @@
-# CykaBlyatIdinahui.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Computers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of Computers</h1>
+        <nav>
+            <ul>
+                <li><a href="#history">History</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#future">Future of Computing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="history">
+        <h2>History of Computers</h2>
+        <p>From the first mechanical calculators to modern supercomputers, technology has evolved tremendously.</p>
+    </section>
+
+    <section id="components">
+        <h2>Computer Components</h2>
+        <p>Learn about processors, memory, storage, and the vital parts of a computer system.</p>
+    </section>
+
+    <section id="future">
+        <h2>Future of Computing</h2>
+        <p>AI, quantum computing, and other innovations are shaping the future!</p>
+    </section>
+
+    <footer>
+        <p>© 2025 All About Computers</p>
+    </footer>
+</body>
+</html>
