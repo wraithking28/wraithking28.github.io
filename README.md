@@ -1,3 +1,5 @@
+![resume](https://github.com/user-attachments/assets/5b302ac1-a5be-49e8-9e02-f0d81ac70d4a)
+
 ![OIP](https://github.com/user-attachments/assets/3aa61335-b871-4fa8-a09d-39392900418e)
 
 <html lang="en">
